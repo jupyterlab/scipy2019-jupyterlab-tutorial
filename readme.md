@@ -1,8 +1,8 @@
-# SciPy 2018 JupyterLab tutorial.
+# JupyterCon 2018 JupyterLab tutorial.
 
-This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during SciPy 2018.
+This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during JupyterCon 2018.
 
-During the tutorial, feel free to get on the `jupyterlab` channel of https://scipy2018.slack.com/ for help and updates.
+During the tutorial, feel free to get on the `jupyterlab` channel of PUT GITTER HERE for help and updates.
 
 # Installation
 
@@ -29,12 +29,12 @@ you are using a different python distribution.
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
     ```
-    git clone https://github.com/jupyterlab/scipy2018-jupyterlab-tutorial
+    git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial
     ```
 
     To update the materials:
     ```
-    cd scipy2018-jupyterlab-tutorial
+    cd jupytercon-jupyterlab-tutorial
     git pull
     ```
 
@@ -45,15 +45,15 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n scipy18jlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
+    conda create -n jupyterconjlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
     ```
 
-    (You could instead create the environment from the supplied environment file with `conda env create -f scipy2018-jupyterlab-tutorial/environment.yml`)
+    (You could instead create the environment from the supplied environment file with `conda env create -f jupytercon-jupyterlab-tutorial/environment.yml`)
 
     Activate the conda environment:
 
     ```
-    conda activate scipy18jlab
+    conda activate jupyterconjlab
     ```
 
     Install extra JupyterLab extensions:
@@ -64,7 +64,7 @@ you are using a different python distribution.
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
 ```
-(scipy18jlab) ~/scipy2018-jupyterlab-tutorial $
+(jupyterconjlab) ~/jupytercon-jupyterlab-tutorial $
 ```
 
 
@@ -81,10 +81,10 @@ $ jupyter lab
 You can delete the environment by using the following in a terminal prompt.
 
 ```
-conda env remove --name scipy18jlab --yes
+conda env remove --name jupyterconjlab --yes
 ```
 
-This will **not** delete any data, but only the conda environement named `scipy18jlab` .
+This will **not** delete any data, but only the conda environement named `jupyterconjlab` .
 
 # Optional packages
 
@@ -94,7 +94,7 @@ optional, and not required for the exercises in this tutorial.
 To install these, first activate the tutorial environment:
 
 ```
-conda activate scipy18jlab
+conda activate jupyterconjlab
 ```
 
 Then install the python packages:
