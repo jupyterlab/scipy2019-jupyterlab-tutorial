@@ -42,11 +42,10 @@ links) and a rough timeline if you want to follow up on the video later.
 
 ## Overview of JupyterLab
 
-###  1:30 (10 min) - Introduction
+###  Introduction (1:30, 20 min)
 
 Today this tutorial will be presented to you by Jason Grout, and Matthias
-Bussonnier, two long standing members of the Jupyter Project. Attendees should
-have been given red/green sticky notes.
+Bussonnier, two long standing members of the Jupyter Project.
 
 By now you should have installed JupyterLab following the instructions in the
 readme. For this tutorial, we are standardizing on a conda-based python
@@ -57,7 +56,6 @@ JupyterLab is still evolving, and we are still refining the usability and user
 experience. When trying to do any task in an exercise, please let us know if
 something was not intuitive, or what surprised you.
 
-###  JASON 1:40 (15min)
  - Introduction to JupyterLab (slides)
 
 - FAQ:
@@ -65,10 +63,10 @@ something was not intuitive, or what surprised you.
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-###  JASON 1:55 (20 min): Tour of The User Interface
+### Tour of User Interface (Jason, 1:55, 20 min)
   - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
-###  MATTHIAS 9:20-9:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
+### Notebook differences (Matthias, 2:15, 10 min)
 
   1. Arranging tabs through dragging
   2. How to author markdown and equations
@@ -78,11 +76,11 @@ something was not intuitive, or what surprised you.
   6. creating new view of outputs
   7. javascript rendering restrictions (removed in the next beta)
 
-###  MATTHIAS 2:15 (20 min): Exercise 1 (and help installation issues if needed):
+###  Exercise 1 (Matthias, 2:25, 20 min)
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 
-### BREAK + QA 2:35 (15 min)
+### BREAK + QA 3:00 (15 min)
 
 Write one good thing on the green sticky note, one bad on the red one.
 
