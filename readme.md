@@ -1,8 +1,8 @@
 # JupyterCon 2018 JupyterLab tutorial.
 
-This repository contain material and instructions to follow the "Getting started with JupyterLab" tutorial during JupyterCon 2018.
+This repository contain material and instructions to follow the JupyterLab tutorial during JupyterCon 2018.
 
-During the tutorial, feel free to get on the `jupyterlab` channel of PUT GITTER HERE for help and updates.
+During the tutorial, feel free to get on the [Gitter `jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
 
 # Installation
 
@@ -45,7 +45,7 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n jupyterconjlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs=9.11 jupyterlab bqplot ipyvolume pythreejs
+    conda create -n jupyterconjlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs jupyterlab bqplot ipyleaflet ipympl ipyvolume pythreejs
     ```
 
     (You could instead create the environment from the supplied environment file with `conda env create -f jupytercon-jupyterlab-tutorial/environment.yml`)
@@ -59,7 +59,7 @@ you are using a different python distribution.
     Install extra JupyterLab extensions:
 
     ```
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-threejs ipyvolume bqplot @jupyterlab/geojson-extension @jupyterlab/fasta-extension
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager @jupyterlab/geojson-extension @jupyterlab/fasta-extension @jupyterlab/celltags @jupyterlab/shortcutui @jupyterlab/statusbar @jupyterlab/toc jupyter-threejs ipyvolume bqplot jupyter-leaflet jupyterlab-drawio
     ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
@@ -99,13 +99,12 @@ conda activate jupyterconjlab
 
 Then install the python packages:
 ```
-conda install -c conda-forge --override-channels --yes ipyleaflet ipympl
 pip install sidecar
 ```
 
 and install the JupyterLab extensions:
 ```
-jupyter labextension install jupyterlab-toc jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar jupyterlab-drawio
+jupyter labextension install @jupyter-widgets/jupyterlab-sidecar 
 ```
 
 # Troubleshooting
