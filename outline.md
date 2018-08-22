@@ -77,7 +77,7 @@ Write one good thing on the green sticky note, one bad on the red one.
 ## Workflows around executing code
 
 
-###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
+###  MATTHIAS 3:15-3:30 (15 min): Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
@@ -86,41 +86,38 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  MATTHIAS 9:45-10:10 (15 min) Exercise 2
+###  MATTHIAS 3:30-3:45 (15 min) Exercise 2
 
-- binding multiple documents to the same kernel
+    - binding multiple documents to the same kernel
     - New Console for Notebook
     - Markdown file + console workflow
     - Python code file + console workflow
     - Open a notebook in classic notebook, modify, save and reopen in Lab.
 
-###  10:10-10:25 (15min)  break 10 min + sticky notes + Q.A 5min
-
-
 ## Customizing JupyterLab
 
-###  MATTHIAS 10:25-10:35 (10min)
+###  MATTHIAS 3:45-3:55 (10min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 10:35-10:50 (15 min)
+### Exercise 3 3:55-4:10 (15 min)
     1. change a keyboard shortcut
       1. Assign existing shortcut to new action.
       2. Assign new Keyboard shortcut to an existing action.
     2. add a keyboard shortcut (restart and run all)
     3. change an editor setting
 
-## Extensions (10:50-11:30, 35 min)
+## Extensions (4:10-4:35, 35 min)
 
 1. Everything is an extension - show the package.json
 2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
 3. `--core-mode`
 4. Exercise 5 - writing your own extension
 
-## What's new (11:30-11:40)
+## What's new (4:35-5:00)
 
 JupyterLab 0.34 out:
 - Workspaces
@@ -134,5 +131,5 @@ Extensions in the works:
 
 
 ## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
-## Mention sprints!
-## 11:40-12:00 QA, Question
+## Mention poster
+## mention user testing
