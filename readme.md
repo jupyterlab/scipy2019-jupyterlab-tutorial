@@ -4,6 +4,11 @@ This repository contain material and instructions to follow the JupyterLab tutor
 
 During the tutorial, feel free to get on the [Gitter `jupyterlab/jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
 
+If you'd like to use JupyterLab without installing anything, you can go to the [JupyterLab demo Binder](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/c9df996a3bd27d9715de6da51b3c52d35def90f9?urlpath=lab/tree/demo/Lorenz.ipynb). You can then open a terminal and clone this repo with:
+```
+git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial.git
+```
+
 # Installation
 
 Please read the following section and install the required software ahead of
