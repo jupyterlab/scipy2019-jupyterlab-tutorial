@@ -4,10 +4,13 @@ channels:
 dependencies:
   - python=3.6
   - pip
-  - cookiecutter=1.6
-  - notebook=5.5
+  - cookiecutter
+  - notebook
   - pandas=0.23
   - nodejs
   - jupyterlab
   - bqplot
+  - ipyleaflet
+  - ipympl
+  - ipyvolume
   - pythreejs

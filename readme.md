@@ -45,7 +45,7 @@ you are using a different python distribution.
     Create a conda environment:
 
     ```
-    conda create -n jupyterconjlab -c conda-forge --override-channels --yes python=3.6 pip cookiecutter=1.6 notebook=5.5 pandas=0.23 nodejs jupyterlab bqplot ipyleaflet ipympl ipyvolume pythreejs
+    conda create -n jlabtutorial -c conda-forge --override-channels --yes python=3.6 pip cookiecutter notebook pandas=0.23 nodejs jupyterlab ipywidgets
     ```
 
     (You could instead create the environment from the supplied environment file with `conda env create -f jupytercon-jupyterlab-tutorial/environment.yml`)
@@ -53,18 +53,18 @@ you are using a different python distribution.
     Activate the conda environment:
 
     ```
-    conda activate jupyterconjlab
+    conda activate jlabtutorial
     ```
 
     Install extra JupyterLab extensions:
 
     ```
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager @jupyterlab/geojson-extension @jupyterlab/fasta-extension @jupyterlab/celltags @jupyterlab/shortcutui @jupyterlab/statusbar @jupyterlab/toc jupyter-threejs ipyvolume bqplot jupyter-leaflet jupyterlab-drawio
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager @jupyterlab/geojson-extension @jupyterlab/fasta-extension @jupyterlab/celltags @jupyterlab/shortcutui @jupyterlab/statusbar @jupyterlab/toc
     ```
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
 ```
-(jupyterconjlab) ~/jupytercon-jupyterlab-tutorial $
+(jlabtutorial) ~/jupytercon-jupyterlab-tutorial $
 ```
 
 
@@ -81,10 +81,10 @@ $ jupyter lab
 You can delete the environment by using the following in a terminal prompt.
 
 ```
-conda env remove --name jupyterconjlab --yes
+conda env remove --name jlabtutorial --yes
 ```
 
-This will **not** delete any data, but only the conda environement named `jupyterconjlab` .
+This will **not** delete any data, but only the conda environement named `jlabtutorial` .
 
 # Optional packages
 
@@ -94,17 +94,18 @@ optional, and not required for the exercises in this tutorial.
 To install these, first activate the tutorial environment:
 
 ```
-conda activate jupyterconjlab
+conda activate jlabtutorial
 ```
 
 Then install the python packages:
 ```
+conda install bqplot ipyleaflet ipympl ipyvolume pythreejs
 pip install sidecar
 ```
 
 and install the JupyterLab extensions:
 ```
-jupyter labextension install @jupyter-widgets/jupyterlab-sidecar 
+jupyter labextension install jupyterlab-drawio jupyter-threejs ipyvolume bqplot jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar 
 ```
 
 # Troubleshooting
