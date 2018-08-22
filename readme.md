@@ -29,7 +29,7 @@ you are using a different python distribution.
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
     ```
-    git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial
+    git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial.git
     ```
 
     To update the materials:
