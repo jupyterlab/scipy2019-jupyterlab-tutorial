@@ -8,7 +8,6 @@ it down.
 
 ## Running things
 
-
 - Binding multiple documents to the same kernel
     - Notebook + console workflow
     - Markdown + console workflow

@@ -1,8 +1,9 @@
 {
-    "notebook:run-all":{
+    "notebook:hide-output-II":{
         "keys":[
             "-"
         ],
+        "title":"Hide cell output",
         "command":"notebook:hide-cell-outputs",
         "selector":".jp-Notebook:focus"
     },
@@ -10,6 +11,7 @@
         "keys":[
             "Shift ="
         ],
+        "title":"Show cell output",
         "command":"notebook:show-cell-outputs",
         "selector":".jp-Notebook:focus"
     }
