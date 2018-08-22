@@ -24,18 +24,8 @@ JupyterLab, how to transition from the “classic” Jupyter Notebook frontend t
 JupyterLab, and how to make the best use of the new powerful features of
 JupyterLab.
 
-You (should) be provided with red and green sticky notes. If you have any
-question and concern or need help, stick the red sticky note visible on back of
-your laptop's screen. A helper will come see you, or the speaker will take time
-to get questions.
-
-If all is fine, or we're too slow for you, stick the green sticky note to the
-back of your laptop screen.
-
-At each break, write a thing you understood or liked on the green sticky note,
-a thing you did not like or found hard on the red one. When exiting the room,
-stick them to the door frame. Make sure to get new sticky notes for the next
-section.
+If you have any question and concern or need help, fell free to speak up. A
+helper will come see you, or the speaker will take time to get questions.
 
 This can serve as a quick read through summary of what we talked about (with
 links) and a rough timeline if you want to follow up on the video later.
@@ -63,22 +53,19 @@ something was not intuitive, or what surprised you.
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-### Tour of User Interface (Jason, 1:50, 20 min)
+### Tour of User Interface (Jason, 1:50, 30 min)
 - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
-### Installation and Exercise 1 (Matthias, 2:20, 30 min)
+### Installation and Exercise 1 (Matthias, 2:30, 30 min)
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
-
-### Notebook differences (Matthias, 2:50, 10 min)
-
-1. Arranging tabs through dragging
-2. How to author markdown and equations
-3. Collapsible cells
-4. Drag cells, inside notebook and between views of files.
-5. Enable scrolling on outputs
-6. Creating new view of outputs
-7. Javascript rendering restrictions (removed in the next beta)
+  1. Arranging tabs through dragging
+  2. How to author markdown and equations
+  3. Collapsible cells
+  4. drag cells, inside notebook and between views of files.
+  5. Enable scrolling on outputs
+  6. creating new view of outputs
+  7. javascript rendering restrictions
 
 ### BREAK + QA 3:00 (15 min)
 
@@ -145,3 +132,5 @@ In the works:
 
 ## JupyterLab in JupyterHub
 ## Community Sprint day Saturday
+## Poster session
+## User testing

@@ -1,10 +1,9 @@
 # Exercises 2
 
 Follow the instructions below, and experiment along the way as you wish. Again,
-if something is not intuitive, please let us know.
+if something is not intuitive, or not in the place you expect, please write it down and let us know.
 
 ## Running things
-
 
 - Binding multiple documents to the same kernel
     - Notebook + console workflow

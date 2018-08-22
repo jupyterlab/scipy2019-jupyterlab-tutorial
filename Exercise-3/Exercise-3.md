@@ -1,7 +1,7 @@
 # Exercises 3
 
 Follow the instructions below, and experiment along the way as you wish. Again,
-if something is not intuitive, please let us know.
+if something is not intuitive, or not in the place you expect, please write it down and let us know.
 
 ## Assign existing shortcut to new action
 
@@ -9,6 +9,10 @@ In the notebook, the cells outputs can be collapsed or expanded, the name of the
 
 You can, for example bind the keys `-` (minus) and `+` (plus), to show/hide the cells. On QWERTY keyboards `+` will be availlable by using `Shift +`.
 
-Try to bind an existing keyboard shortcut to ` notebook:run-all-cells`
+Try to bind an existing keyboard shortcut to `notebook:run-all-cells`
 
 Configure your editor to not automatically close brackets.
+
+## JupyterLab 0.34
+
+JupyterLab 0.34 now have a Keyboard shortcut editor. The in
