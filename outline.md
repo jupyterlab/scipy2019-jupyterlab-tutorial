@@ -64,7 +64,7 @@ something was not intuitive, or what surprised you.
   4. drag cells, inside notebook and between views of files.
   5. Enable scrolling on outputs
   6. creating new view of outputs
-  7. javascript rendering restrictions (removed in the next beta)
+  7. javascript rendering restrictions
 
 ###  Exercise 1 (Matthias, 2:25, 20 min)
 
