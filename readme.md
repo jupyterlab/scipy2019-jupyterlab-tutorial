@@ -2,7 +2,7 @@
 
 This repository contain material and instructions to follow the JupyterLab tutorial during JupyterCon 2018.
 
-During the tutorial, feel free to get on the [Gitter `jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
+During the tutorial, feel free to get on the [Gitter `jupyterlab/jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
 
 # Installation
 
@@ -99,13 +99,13 @@ conda activate jlabtutorial
 
 Then install the python packages:
 ```
-conda install bqplot ipyleaflet ipympl ipyvolume pythreejs
+conda install -c conda-forge --override-channels bqplot ipyleaflet ipympl ipyvolume pythreejs
 pip install sidecar
 ```
 
 and install the JupyterLab extensions:
 ```
-jupyter labextension install jupyterlab-drawio jupyter-threejs ipyvolume bqplot jupyter-leaflet @jupyter-widgets/jupyterlab-sidecar 
+jupyter labextension install bqplot jupyter-leaflet ipyvolume jupyter-threejs  @jupyter-widgets/jupyterlab-sidecar jupyterlab-drawio
 ```
 
 # Troubleshooting

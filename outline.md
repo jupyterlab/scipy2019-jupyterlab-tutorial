@@ -42,7 +42,7 @@ links) and a rough timeline if you want to follow up on the video later.
 
 ## Overview of JupyterLab
 
-###  Introduction (1:30, 20 min)
+### Introduction (1:30, 20 min)
 
 Today this tutorial will be presented to you by Jason Grout, and Matthias
 Bussonnier, two long standing members of the Jupyter Project.
@@ -56,29 +56,29 @@ JupyterLab is still evolving, and we are still refining the usability and user
 experience. When trying to do any task in an exercise, please let us know if
 something was not intuitive, or what surprised you.
 
- - Introduction to JupyterLab (slides)
+- Introduction to JupyterLab (slides)
 
 - FAQ:
   - Why JupyterLab?
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-### Tour of User Interface (Jason, 1:55, 20 min)
-  - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
+### Tour of User Interface (Jason, 1:50, 20 min)
+- Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
-### Notebook differences (Matthias, 2:15, 10 min)
-
-  1. Arranging tabs through dragging
-  2. How to author markdown and equations
-  3. Collapsible cells
-  4. drag cells, inside notebook and between views of files.
-  5. Enable scrolling on outputs
-  6. creating new view of outputs
-  7. javascript rendering restrictions (removed in the next beta)
-
-###  Exercise 1 (Matthias, 2:25, 20 min)
+### Installation and Exercise 1 (Matthias, 2:20, 30 min)
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
+
+### Notebook differences (Matthias, 2:50, 10 min)
+
+1. Arranging tabs through dragging
+2. How to author markdown and equations
+3. Collapsible cells
+4. Drag cells, inside notebook and between views of files.
+5. Enable scrolling on outputs
+6. Creating new view of outputs
+7. Javascript rendering restrictions (removed in the next beta)
 
 ### BREAK + QA 3:00 (15 min)
 
@@ -86,63 +86,62 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Workflows around executing code
 
+### Attaching kernels to multiple documents (Matthias, 3:15, 15 min)
 
-###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
+1. Executing code in a markdown file using an attached console.
+2. Developing libraries with notebook and Python files attached to same kernel
+3. Reloading modules?
+4. Create terminal, work with terminal next to code file and console. Maybe using ipython in terminal.
+5. Attaching a code console to the same kernel as a notebook.
 
-  1. Executing code in a markdown file using an attached console.
-  2. Developing libraries with notebook and Python files attached to same kernel
-  3. Reloading modules?
-  4. Create terminal, work with terminal next to code file and console. Maybe using ipython in terminal.
-  5. Attaching a code console to the same kernel as a notebook.
-
-
-###  MATTHIAS 9:45-10:10 (15 min) Exercise 2
+### Exercise 2 (Matthias, 3:30, 15 min)
 
 - binding multiple documents to the same kernel
-    - New Console for Notebook
-    - Markdown file + console workflow
-    - Python code file + console workflow
-    - Open a notebook in classic notebook, modify, save and reopen in Lab.
-
-###  10:10-10:25 (15min)  break 10 min + sticky notes + Q.A 5min
-
+  - New Console for Notebook
+  - Markdown file + console workflow
+  - Python code file + console workflow (notice the completions in the python code file!)
+  - Open a notebook in classic notebook, modify, save and reopen in Lab.
 
 ## Customizing JupyterLab
 
-###  MATTHIAS 10:25-10:35 (10min)
+### Settings (Matthias, 3:45, 10 min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 10:35-10:50 (15 min)
-    1. change a keyboard shortcut
-      1. Assign existing shortcut to new action.
-      2. Assign new Keyboard shortcut to an existing action.
-    2. add a keyboard shortcut (restart and run all)
-    3. change an editor setting
+### Exercise 3 (Matthias, 3:55, 10 min)
+1. change a keyboard shortcut
+  1. Assign existing shortcut to new action.
+  2. Assign new Keyboard shortcut to an existing action.
+2. add a keyboard shortcut (restart and run all)
+3. change an editor setting
 
-## Extensions (10:50-11:30, 35 min)
+## Extensions (Jason, 4:05, 30 min)
 
 1. Everything is an extension - show the package.json
 2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
 3. `--core-mode`
 4. Exercise 5 - writing your own extension
 
-## What's new (11:30-11:40)
+## What's new (Jason, 4:35, 25 min)
 
-JupyterLab 0.34 out:
+JupyterLab 0.34 is out. Changes in 0.33 and 0.34 include:
+- No longer in beta
 - Workspaces
 - Extension manager
 - Console show outputs
-- Open in new browser tab
+- Open in new browser tab/Copy Down Link
+- Text file completions
+- Text editor font size
+- Theming improvements
 - Many, many upgrades
 
-Extensions in the works:
+In the works:
 - Real-time collaboration
 
+## Widgets workflows
 
-## Mention JupyterLab in a multiuser environment: point to jupyterlab docs
-## Mention sprints!
-## 11:40-12:00 QA, Question
+## JupyterLab in JupyterHub
+## Community Sprint day Saturday

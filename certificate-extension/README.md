@@ -33,7 +33,7 @@ jupyter lab build
 The extension renders a `.cert` file that has the following JSON format:
 ```
 {
-  "given": "John Hunter",
-  "event": "Conference 2018"
+  "given": "My Name",
+  "event": "Event"
 }
 ```
