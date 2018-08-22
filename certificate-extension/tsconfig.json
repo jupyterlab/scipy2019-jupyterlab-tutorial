@@ -7,8 +7,8 @@
     "noEmitOnError": true,
     "noUnusedLocals": true,
     "outDir": "./lib",
-    "strict": true,
     "target": "es2015",
+    "strict": true,
     "types": []
   },
   "include": ["src/*"]
