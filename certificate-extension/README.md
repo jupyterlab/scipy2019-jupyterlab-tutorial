@@ -1,7 +1,6 @@
-# Scipy Certificate
+# certificate-extension
 
-SciPy Certificate extension
-
+A JupyterLab extension for rendering certificate files.
 
 ## Prerequisites
 
@@ -10,7 +9,7 @@ SciPy Certificate extension
 ## Installation
 
 ```bash
-jupyter labextension install scipy_cert
+jupyter labextension install certificate-extension
 ```
 
 ## Development
@@ -31,12 +30,10 @@ jupyter lab build
 
 ## Example file. 
 
-The extension renders file with `.json` or `.cert.json` extension, that have the `given` and `event` field.
-Example:
-
+The extension renders a `.cert` file that has the following JSON format:
 ```
 {
   "given": "John Hunter",
-  "event": "SciPy 2012"
+  "event": "Conference 2018"
 }
 ```
