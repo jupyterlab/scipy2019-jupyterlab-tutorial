@@ -37,7 +37,7 @@ Choose from 1, 2 [1]: 2
 In the terminal, install your new extension
 
 ```
-conda activate jupytercon
+conda activate scipy2019
 jupyter labextension install ./my-certificate-viewer
 ```
 

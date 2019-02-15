@@ -1,12 +1,12 @@
-# JupyterCon 2018 JupyterLab tutorial.
+# Scipy 2019 JupyterLab tutorial
 
-This repository contain material and instructions to follow the JupyterLab tutorial during JupyterCon 2018.
+This repository contain material and instructions to follow the JupyterLab tutorial during Scipy 2019.
 
 During the tutorial, feel free to get on the [Gitter `jupyterlab/jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
 
 If you'd like to use JupyterLab without installing anything, you can go to the [JupyterLab demo Binder](https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/c9df996a3bd27d9715de6da51b3c52d35def90f9?urlpath=lab/). You can then open a terminal and clone this repo with:
 ```
-git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial.git
+git clone https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial.git
 ```
 
 # Installation
@@ -34,12 +34,12 @@ you are using a different python distribution.
 2. To get the tutorial materials, clone this repository. **Please plan to update the materials shortly before the tutorial.**
 
     ```
-    git clone https://github.com/jupyterlab/jupytercon-jupyterlab-tutorial.git
+    git clone https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial.git
     ```
 
     To update the materials:
     ```
-    cd jupytercon-jupyterlab-tutorial
+    cd scipy2019-jupyterlab-tutorial
     git pull
     ```
 
@@ -53,7 +53,7 @@ you are using a different python distribution.
     conda create -n jlabtutorial -c conda-forge --override-channels --yes python=3.6 pip cookiecutter notebook pandas=0.23 nodejs jupyterlab ipywidgets matplotlib
     ```
 
-    (You could instead create the environment from the supplied environment file with `conda env create -f jupytercon-jupyterlab-tutorial/environment.yml`)
+    (You could instead create the environment from the supplied environment file with `conda env create -f scipy2019-jupyterlab-tutorial/environment.yml`)
 
     Activate the conda environment:
 
@@ -69,7 +69,7 @@ you are using a different python distribution.
 
 If you open multiple terminal windows make sure to activate the environment in each of them. Your terminal prompt should be preceded by the name of the current environment, for example:
 ```
-(jlabtutorial) ~/jupytercon-jupyterlab-tutorial $
+(jlabtutorial) ~/scipy2019-jupyterlab-tutorial $
 ```
 
 
