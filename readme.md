@@ -1,6 +1,6 @@
 # Scipy 2019 JupyterLab tutorial
 
-This repository contain material and instructions to follow the JupyterLab tutorial during Scipy 2019.
+This repository contains material and instructions for the JupyterLab tutorial during Scipy 2019.
 
 During the tutorial, feel free to get on the [Gitter `jupyterlab/jupyterlab` channel](https://gitter.im/jupyterlab/jupyterlab) for help and updates.
 
