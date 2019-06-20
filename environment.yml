@@ -8,7 +8,7 @@ dependencies:
   - notebook
   - pandas=0.24
   - nodejs
-  - jupyterlab
+  - jupyterlab=1
   - bqplot
   - ipyleaflet
   - ipympl

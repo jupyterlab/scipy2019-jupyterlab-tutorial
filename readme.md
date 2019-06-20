@@ -54,7 +54,7 @@ you are using a different python distribution.
     Create a new conda environment for this tutorial:
 
     ```
-    conda create -n jlabtutorial -c conda-forge --override-channels --yes python=3.7 pip cookiecutter notebook pandas=0.24 nodejs jupyterlab ipywidgets matplotlib tornado=5
+    conda create -n jlabtutorial -c conda-forge --override-channels --yes python=3.7 jupyterlab=1 ipywidgets nodejs pip cookiecutter pandas=0.24 matplotlib
     ```
 
     (You could instead create the environment from the supplied environment file with `conda env create -f scipy2019-jupyterlab-tutorial/environment.yml`)
