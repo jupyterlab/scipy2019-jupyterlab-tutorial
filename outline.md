@@ -2,7 +2,7 @@
 
 **These notes are for the presenters.**
 
-For the last two years the Jupyter team has been working on the new Jupyter
+For the last several years the Jupyter team has been working on a new Jupyter
 frontend: JupyterLab. While JupyterLab does of course allow the use of Jupyter
 Notebooks, it goes beyond the classic Jupyter Notebook by providing a flexible
 and extensible web application with a set of reusable components. Users can
