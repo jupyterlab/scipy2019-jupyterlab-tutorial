@@ -1,5 +1,7 @@
 # Outline
 
+1:30pm to 5:30pm Rooom 201
+
 **These notes are for the presenters.**
 
 For the last several years the Jupyter team has been working on a new Jupyter
@@ -32,10 +34,15 @@ links) and a rough timeline if you want to follow up on the video later.
 
 ## Overview of JupyterLab
 
-### Introduction (1:30, 20 min)
+### Introduction (Stephanie, 1:30pm, 20 min)
 
-Today this tutorial will be presented to you by Jason Grout, and Matthias
-Bussonnier, two long standing members of the Jupyter Project.
+Today this tutorial will be presented to you by Stephanie Stattel, Jason Grout, and Matthias
+Bussonnier.
+
+- Poll Audience (yes/no)
+Have people used Classic Notebook?
+Have people used JupyterLab?
+Coding Languages (python/R/etc.)
 
 By now you should have installed JupyterLab following the instructions in the
 readme. For this tutorial, we are standardizing on a conda-based python
@@ -46,15 +53,25 @@ JupyterLab is still evolving, and we are still refining the usability and user
 experience. When trying to do any task in an exercise, please let us know if
 something was not intuitive, or what surprised you.
 
-- Introduction to JupyterLab (slides)
+- Introduction to JupyterLab (slide)
+Go over context/design of JupyterLab (pull from JupyterCon 'Terraforming' introduction content)
 
 - FAQ:
   - Why JupyterLab?
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-### Tour of User Interface (Jason, 1:50, 30 min)
+(possible slide material in https://github.com/jupyterlab/jupyterlab-demo)
+
+### Tour of User Interface (Stephanie, 1:50, 30 min)
 - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
+
+look at changelog in master to highlight new features in interface
+- printing support
+- find and replace
+- shareable workspace
+highlight what is new in 1.0 (replaces section at end of tutorial, leave more time for Q&A instead)
+https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html
 
 ### Installation and Exercise 1 (Matthias, 2:30, 30 min)
 
@@ -62,7 +79,7 @@ Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
   1. Arranging tabs through dragging
   2. How to author markdown and equations
   3. Collapsible cells
-  4. drag cells, inside notebook and between views of files.
+  4. drag cells, inside notebook and between views of files. (perhaps also dragging between notebooks and consoles and files)
   5. Enable scrolling on outputs
   6. creating new view of outputs
   7. javascript rendering restrictions
@@ -70,6 +87,8 @@ Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 ### BREAK + QA 3:00 (15 min)
 
 Write one good thing on the green sticky note, one bad on the red one.
+
+(+5 minutes to finish Exercise 1)
 
 ## Workflows around executing code
 
@@ -80,6 +99,8 @@ Write one good thing on the green sticky note, one bad on the red one.
 3. Reloading modules?
 4. Create terminal, work with terminal next to code file and console. Maybe using ipython in terminal.
 5. Attaching a code console to the same kernel as a notebook.
+6. Stepping through code from a notebook cell (look at Bo Peng's PRs to 1.0)
+
 
 ### Exercise 2 (Matthias, 3:30, 15 min)
 
@@ -91,46 +112,39 @@ Write one good thing on the green sticky note, one bad on the red one.
 
 ## Customizing JupyterLab
 
-### Settings (Matthias, 3:45, 10 min)
+### Settings (Stephanie, 3:45, 10 min)
 
   1. Changing editor settings
   2. Changing theme
   3. Json config system overview
   4. Changing keyboard shortcuts
 
-### Exercise 3 (Matthias, 3:55, 10 min)
+### Exercise 3 (Stephanie, 3:55, 10 min)
 1. change a keyboard shortcut
   1. Assign existing shortcut to new action.
   2. Assign new Keyboard shortcut to an existing action.
+  3. Disable an existing keyboard shortcut
 2. add a keyboard shortcut (restart and run all)
+   1. execute code from a notebook cell in console: see https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html#command-palette-items [cntrl-shift-enter, or cntrl-G]
 3. change an editor setting
 
-## Extensions (Jason, 4:05, 30 min)
+## Break (4:05, 15 min)
+
+## Extensions (Jason, 4:20, 50 min)
 
 1. Everything is an extension - show the package.json
 2. Installing/listing/enabling/disabling plugins. `jupyter lab build`
 3. `--core-mode`
 4. Exercise 5 - writing your own extension
 
-## What's new (Jason, 4:35, 25 min)
 
-JupyterLab 0.34 is out. Changes in 0.33 and 0.34 include:
-- No longer in beta
-- Workspaces
-- Extension manager
-- Console show outputs
-- Open in new browser tab/Copy Down Link
-- Text file completions
-- Text editor font size
-- Theming improvements
-- Many, many upgrades
+## General QA period (Everyone, 5:10, 20 min)
 
-In the works:
-- Real-time collaboration
 
+
+
+## Things we can do if we have time:
 ## Widgets workflows
-
 ## JupyterLab in JupyterHub
-## Community Sprint day Saturday
+## Sprint Saturday and Sunday
 ## Poster session
-## User testing
