@@ -1,11 +1,24 @@
 # Exercises 2
 
-Follow the instructions below, and experiment along the way as you wish. Again,
+## Markdown + Console
+
+Open "Report.md" and follow the instructions. Experiment along the way as you wish. Again,
 if something is not intuitive, or not in the place you expect, please write it down and let us know.
 
-## Running things
+## Notebook + Console, Notebook + Notebook
 
-- Binding multiple documents to the same kernel
+Open Notebook A and B, try to :
+  - right click, "New console for notebook"
+  - Change the current kernel to be "Report.md", or another kernel.
+      - See how stateis shared between documents.
+
+## Running Terminal and Kernles Tab
+
+Go to the "Running Terminals and kernels Tabs", see how it lists all the running kernels. Use it to stop unnecesary kernels and free up conpute resources.
+
+## Going further
+
+- How to binding multiple documents to the same kernel
     - Notebook + console workflow
     - Markdown + console workflow
     - Python code file + console workflow

@@ -8,7 +8,7 @@ it, write it down, and tell it to us, or open an issue on GitHub.
 
 ## View this file as rendered markdown.
 
-Right-click on the `Exercise1.md` file to open it as rendered markdown.
+Right-click on the `Exercise1.md` file to open it as rendered markdown called "Markdown Preview".
 
 ## Layout
 
@@ -30,8 +30,8 @@ Arrange the notebook and rendered markdown side-by-side. Then arrange them, one 
     - try `pandas.D<tab>` to get tab completion on the pandas library. Note that completions can take a few second the first time the library get inspected to get result.
     - Complete to `pandas.DataFrame(` place the cursor after the open bracket and press `Shift-Tab` to get quick help.
     - To always see the info about the current function you can open the inspector via the command palette.
-        - Use the command palette the find the Keyboard shortcut to open the inspector.
-        - Move the inspector tab somewhere so that you can see both it and the notebook.
+        - Use the command palette the find the Keyboard shortcut to open the Contextual Help.
+        - Move the `Contextual Help` tab somewhere so that you can see both it and the notebook.
         - Type `pandas.read_csv(` to see the inspector display function help.
     - Use panda’s `read_csv` to load `'../data/iris.csv'` into a dataframe, display this dataframe
     - open `'../data/iris.csv'` as a standalone CSV file.
