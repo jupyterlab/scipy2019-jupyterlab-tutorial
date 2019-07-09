@@ -13,7 +13,9 @@ git clone https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial.git
 
 # Installation
 
-## IMPORTANT: We will be using JupyterLab 1.0, which will be released at the end of June 2019. Please follow the installation instructions below *after* July 1, 2019.
+## IMPORTANT: We will be using JupyterLab 1.0, which was released in late June.
+If you were using an older version of JupyterLab, please upgrade to the latest.
+Typically, this is done using `pip install --upgrade jupyterlab`.
 
 Please read the following section and install the required software ahead of
 time if possible. We may ask you to update versions of the software more closely to the
