@@ -23,7 +23,7 @@ author_name []: <Your name>
 author_email []: <Your email>
 extension_name [myextension]: my-certificate-viewer
 viewer_name [My Viewer]: Certificate Viewer
-mimetype [application/vnd.my_organization.my_type]: application/vnd.jupyterlab.certificate
+mimetype [application/vnd.my_organization.my_type]: application/vnd.example.certificate
 mimetype_name [my_type]: certificate
 file_extension [.my_type]: .cert
 Select data_format:
@@ -37,7 +37,7 @@ Choose from 1, 2 [1]: 2
 In the terminal, install your new extension
 
 ```
-conda activate scipy2019
+conda activate jlabtutorial
 jupyter labextension install ./my-certificate-viewer
 ```
 
@@ -62,9 +62,9 @@ Now customize the display. Open the `my-certificate-viewer/src/index.ts` TypeScr
 <div class="certificate">
   <div class="paper">
     <div class="title">Certificate</div>
-    <div class="text">${given}</div>
+    <div class="text">${data.given}</div>
     <div class="text">For mastery of JupyterLab</div>
-    <div class="text">${event}</div>
+    <div class="text">${data.event}</div>
   </div>
   <div class="medal"></div>
   <div class="ribbon ribbon1"></div>
