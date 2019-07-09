@@ -12,7 +12,3 @@ You can, for example bind the keys `-` (minus) and `+` (plus), to show/hide the 
 Try to bind an existing keyboard shortcut to `notebook:run-all-cells`
 
 Configure your editor to not automatically close brackets.
-
-## JupyterLab 0.34
-
-JupyterLab 0.34 now have a Keyboard shortcut editor. The in
